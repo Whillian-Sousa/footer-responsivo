@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Site Responsivo</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img class="logoo" src="imagens/logo.png" alt="corvo">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                    <li class="nav-item"><a href="#" class="carrinho">Carrinho</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button class="button -item1"><a href="#">Entrar</a></button>
+                <button class="button -item2"><a href="#">Criar Conta</a></button>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+                <button><a href="#">Criar Conta</a></button>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <div class="foo_contnt">
+            <div class="foo_contacts">
+                <div class="foo_logo">
+                    <img src="imagens/logo.png" alt="corvo">
+                </div>
+                <p>Dentro de um submundo onírico</p>
+                <div class="foo_scl_media">
+                    <a href="#" class="foo-link" id="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="foo-link" id="face">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="foo-link" id="whats">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="foo_list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="foo_link">Head Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="foo_link">Conveniênia</a>
+                </li>
+                <li>
+                    <a href="#" class="foo_link">Souvenir</a>
+                </li>
+            </ul>
+
+            <ul class="foo_list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="" class="foo_link">Sobre</a>
+                </li>
+                <li>
+                    <a href="" class="foo_link">Contatos</a>
+                </li>
+                <li>
+                    <a href="" class="foo_link">Ajuda</a>
+                </li>
+            </ul>
+
+            <div id="foo_inscri">
+                <h3>Assinar</h3>
+                <p>Entre com seu e-mail para recebar novidades e promoções</p>
+                <div id="ipt_gropo">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="foo_copyrght">
+            &#169
+            2023 todos os direitos reservados
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
