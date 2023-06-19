@@ -142,7 +142,7 @@ header{
 
 main{
     background-color: wheat;
-    height: 80vh;
+    height: 5vh;
 }
 
 footer{
@@ -154,10 +154,12 @@ footer{
     background-color: var(--cor-neutra-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 2rem 3.5rem;
+    padding: 3rem 3.5rem;
 }
 
 .foo_logo{
+    display: flex;
+    align-items: center;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -168,6 +170,15 @@ footer{
 .foo_logo img{
     display: flex;
     height: 4rem;
+}
+
+.foo-h1{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    font-size: 2rem;
+    padding-left: 1rem;
+
 }
 
 
@@ -218,6 +229,7 @@ footer{
     color: var(--cor-neutra-30);
     transition: all 0.4s;
     text-decoration: none;
+    padding: .5;
 }
 
 .foo_link .foo_link:hover{
@@ -283,6 +295,13 @@ footer{
     .foo_contnt {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1090px) {
+    .foo-h1{
+        display: none;
     }
 
 }
